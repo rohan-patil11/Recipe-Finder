@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Comic Sans MS', sans-serif;
+            background-image: url('Dark BackGround.jpg');
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            animation: backgroundAnimate 10s infinite alternate;
+        }
+
+        @keyframes backgroundAnimate {
+            0% {
+                background-position: center top;
+            }
+            100% {
+                background-position: center bottom;
+            }
+        }
+
+        h1 {
+            color: #ff6347;
+            text-align: center;
+            font-size: 4rem;
+            margin-top: 30px;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: #f4e04d;
+            text-shadow: 2px 2px 8px rgba(145, 63, 63, 0.6);
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 1.5rem;
+            margin: 20px 0;
+            text-shadow: 1px 1px 5px rgba(194, 31, 31, 0.4);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        ul li {
+            background: rgba(255, 255, 255, 0.4);
+            padding: 20px 30px;
+            border-radius: 15px;
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        ul li:hover {
+            transform: rotateY(20deg) scale(1.1);
+            box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
+            filter: brightness(1.2);
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+            transition: color 0.3s ease;
+        }
+
+        ul li a:hover {
+            color: #ff6347;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: white;
+            font-size: 1rem;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <label class="theme-switch">
+        <input type="checkbox" class="theme-switch__checkbox" aria-label="Toggle theme">
+        <div class="theme-switch__container">
+            <div class="theme-switch__circle-container"></div>
+        </div>
+    </label>
+    <h1>WELCOME TO THE RECIPE FINDER</h1>
+    <h2>"PEOPLE WHO LOVE TO EAT ARE ALWAYS THE BEST PEOPLE"</h2>
+    <h3>HERE ARE THE TOP RECIPES YOU NEED TO EXPLORE AND GIVE A TRY</h3>
+    <ul>
+        <li><a href="ChickenCurry.html" target="_blank">Chicken Curry</a></li>
+        <li><a href="FriedChicken.html" target="_blank">Fried Chicken</a></li>
+        <li><a href="PastaPrimavera.html" target="_blank">Pasta Primavera</a></li>
+        <li><a href="ApplePie.html" target="_blank">Apple Pie</a></li>
+        <li><a href="VegetableStirFry.html" target="_blank">Vegetable Stir Fry</a></li>
+    </ul>
+    
+    <footer>&copy; 2024 Recipe Finder. All rights reserved.</footer>
+   
+</body>
+</html>
