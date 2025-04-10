@@ -3,6 +3,8 @@
 Welcome to **Recipe Finder**, your ultimate destination for exploring delicious recipes from around the world! Whether you're a seasoned chef or a home cook, this platform is designed to inspire your culinary journey and make cooking fun and easy. Dive into a variety of recipes, each crafted to tantalize your taste buds.
 
 ---
+## 🌟 Live Demo
+[Click here to explore the site](https://rohan-patil11.github.io/Recipee-Finder/)
 
 ## 🚀 Features
 
@@ -85,7 +87,7 @@ Hi, I'm **Rohan Patil**! 👋 I'm passionate about building creative and interac
 
 ## 📜 License
 
-This project is licensed under the MIT License. Feel free to use and modify the code for your personal or professional projects. Attribution is appreciated!
+This project is licensed under the Myself. Feel free to use and modify the code for your personal or professional projects. Attribution is appreciated!
 
 ---
 
