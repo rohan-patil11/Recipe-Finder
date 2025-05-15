@@ -4,7 +4,7 @@ Welcome to **Recipe Finder**, your ultimate destination for exploring delicious 
 
 ---
 ## 🌟 Live Demo
-[Click here to explore the site](https://rohan-patil11.github.io/Recipee-Finder/)
+[Click here to explore the site](https://rohan-patil11.github.io/Recipe-Finder/)
 
 ## 🚀 Features
 
